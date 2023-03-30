@@ -60,6 +60,7 @@ main {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
+    background-color: papayawhip;
 }
 
 /* Seccion catalogo */
@@ -70,11 +71,52 @@ section#catalogo {
 /* Articulos */
 article {
     width: 24%;
-    max-width: 260px;
+    max-width: 300px;
     min-width: 200px;
     display: inline-block;
+    margin: 10px;
+    border: 4px #D3D3D3 solid;
+    background-color: #ffffff;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .imgProduct {
     width: 100%;
+}
+
+/* Notificacion */
+#notificacion {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    background-color: #ffd700;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.tituloProducto {
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+.precioOriginal {
+    font-size: 1.5em;
+    color: #FFA500;
+    text-decoration: line-through;
+}
+
+.precioDescuento {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.precioFinal {
+    font-size: 2em;
+    color: #880808;
+    font-weight: bold;
+}
+
+article > p {
+    line-height: 180%;
 }
